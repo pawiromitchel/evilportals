@@ -1,10 +1,6 @@
 @font-face {
-	font-family: 'Roboto';
-	src: 
-		local('Roboto Regular'),
-		local('Roboto-Regular'),
-		url('Roboto-Regular.ttf'),
-		format('truetype');
+	font-family: 'GoogleSans-Regular';
+	src: url('../fonts/GoogleSans-Regular.ttf');
 }
 
 * {
@@ -15,11 +11,11 @@
 body {
 	background: #fff;
 	color: #000;
-	font-family: "Arial", sans-serif;
+	font-family: 'GoogleSans-Regular';
 	font-size: 14px;
 	font-weight: 300;
 	text-align: center;
-	padding: 60px 40px;
+	padding: 25px 40px;
 	height: 100%;
 }
 
@@ -31,25 +27,30 @@ form {
 	text-align: left;
 }
 
-img { zoom: 50% }
+img {zoom: 55%;}
 
 h1 {
-	font-family: "Roboto", "Arial", sans-serif;
-	font-size: 25px;
+	color: #202124;
+	font-family: 'GoogleSans-Regular';
+	font-size: 26px;
 	font-weight: 400;
-	margin-top: 15px;
+	margin-top: 12px;
 	margin-bottom: 5px;
+	line-height: 1.3333;
 }
 
 h2 {
-	font-family: "Roboto", "Arial", sans-serif;
-	font-size: 14px;
+	color: #202124;
+	font-family: roboto,'Noto Sans Myanmar UI',arial,sans-serif;
+	font-size: 19px;
 	font-weight: 400;
 	margin-bottom: 70px;
+	letter-spacing: .1px;
+	line-height: 1.5;
 }
 
 p {
-	font-family: "Roboto", "Arial", sans-serif;
+	font-family: 'GoogleSans-Regular';
 	font-size: 13px;
 	font-weight: 300;
 	margin-top: 70px;
@@ -60,7 +61,7 @@ input {
 	width: 100%;
 	font-size: 14px;
 	font-weight: 300;
-	padding: 3px 0;
+	padding: 10px 0;
 	margin-top: 30px;
 	background: #fff;
 	border: none;
@@ -83,7 +84,7 @@ button:focus {
 }
 
 a, a:hover {
-	color: #4d90fe;
+	color: #1a73e8;
 	text-decoration: none;
 }
 
@@ -93,7 +94,7 @@ button {
 	border: none;
 	border-radius: 3px;
 	color: #fff;
-	background-color: #4d90fe;
+	background-color: #1a73e8;
 	box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 3px 0px;
 	padding: 10px 23px;
 	margin-top: -14px;

